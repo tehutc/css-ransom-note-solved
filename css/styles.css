@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
 
 * {
   padding: 0;
@@ -37,7 +41,7 @@ body {
   gap: 20px;
 }
 
-.word > span {
+.word>span {
   position: relative;
   padding: 20px 30px;
   width: max-content;
@@ -83,222 +87,624 @@ body {
 /* DID word */
 
 .didDLetter {
+  font-family: 'Creepster', cursive;
+  font-size: 55px;
+  color: #ff4d4d;
+  transform: rotate(-5deg);
+  text-shadow: 2px 2px #000;
 }
 
 .didILetter {
+  font-family: 'Nosifer', cursive;
+  font-size: 45px;
+  color: #39ff14;
+  transform: skewX(-15deg);
 }
 
 .didDTwoLetter {
+  font-family: 'Butcherman', cursive;
+  font-size: 60px;
+  color: #ff9900;
+  transform: rotate(8deg);
 }
 
 /* THE word */
 
 .theTLetter {
+  font-family: 'Eater', cursive;
+  font-size: 50px;
+  color: #ff66b2;
+  text-decoration: line-through;
+  transform: scaleY(1.2);
 }
 
 .theHLetter {
+  font-family: 'Piazzolla', serif;
+  font-size: 65px;
+  color: #66ff66;
+  font-style: italic;
+  text-shadow: 3px 3px #000;
 }
 
 .theELetter {
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 48px;
+  color: #ff99cc;
+  transform: rotate(-3deg);
+  text-decoration: underline wavy;
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  font-family: 'Nosifer', cursive;
+  font-size: 58px;
+  color: #ff3366;
+  transform: skewY(5deg);
+  text-shadow: 3px 3px #000;
 }
 
 .frontendRLetter {
+  font-family: 'Eater', cursive;
+  font-size: 45px;
+  color: #66ffcc;
+  transform: rotate(-8deg);
 }
 
 .frontendOLetter {
+  font-family: 'Butcherman', cursive;
+  font-size: 52px;
+  color: #ff9933;
+  text-decoration: overline;
 }
 
 .frontendNLetter {
+  font-family: 'Creepster', cursive;
+  font-size: 60px;
+  color: #cc99ff;
+  transform: scaleX(1.2);
 }
 
 .frontendTLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 48px;
+  color: #ffff66;
+  text-decoration: line-through;
 }
 
 .frontendELetter {
+  font-family: 'Ceviche One', sans-serif;
+  font-size: 55px;
+  color: #99ff99;
+  transform: skewX(-10deg);
 }
 
 .frontendNTwoLetter {
+  font-family: 'Nosifer', cursive;
+  font-size: 50px;
+  color: #ff99cc;
+  text-shadow: 2px 2px #000;
 }
 
 .frontendDLetter {
+  font-family: 'Butcherman', cursive;
+  font-size: 56px;
+  color: #ff6600;
+  transform: rotate(5deg);
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  font-family: 'Eater', cursive;
+  font-size: 54px;
+  color: #33ccff;
+  transform: rotate(-6deg);
 }
+
 .developerELetter {
+  font-family: 'Creepster', cursive;
+  font-size: 48px;
+  color: #ff99ff;
+  text-decoration: underline wavy;
 }
+
 .developerVLetter {
+  font-family: 'Piazzolla', serif;
+  font-size: 62px;
+  color: #ffcc00;
+  transform: skewY(-8deg);
 }
+
 .developerETwoLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 50px;
+  color: #66ff66;
+  text-shadow: 2px 2px #000;
 }
+
 .developerLLetter {
+  font-family: 'Nosifer', cursive;
+  font-size: 58px;
+  color: #ff6699;
+  transform: scaleY(1.1);
 }
+
 .developerOLetter {
+  font-family: 'Butcherman', cursive;
+  font-size: 52px;
+  color: #99ccff;
+  text-decoration: overline;
 }
+
 .developerPLetter {
+  font-family: 'Ceviche One', sans-serif;
+  font-size: 56px;
+  color: #ff9966;
+  transform: rotate(4deg);
 }
+
 .developerEThreeLetter {
+  font-family: 'Eater', cursive;
+  font-size: 50px;
+  color: #cc99ff;
+  text-shadow: 3px 3px #000;
 }
+
 .developerRLetter {
+  font-family: 'Creepster', cursive;
+  font-size: 54px;
+  color: #ffff99;
+  transform: skewX(10deg);
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  font-family: 'Nosifer', cursive;
+  font-size: 52px;
+  color: #ff3399;
+  transform: rotate(-5deg);
 }
+
 .takeALetter {
+  font-family: 'Butcherman', cursive;
+  font-size: 58px;
+  color: #66ffcc;
+  text-decoration: line-through;
 }
+
 .takeKLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 50px;
+  color: #ff9933;
+  transform: skewY(6deg);
 }
+
 .takeELetter {
+  font-family: 'Piazzolla', serif;
+  font-size: 56px;
+  color: #cc66ff;
+  text-shadow: 2px 2px #000;
 }
 
 /* UP word */
 
 .upULetter {
+  font-family: 'Nosifer', cursive;
+  font-size: 65px;
+  color: #ff3300;
+  transform: skewX(15deg);
+  text-shadow: 3px 3px #000;
 }
+
 .upPLetter {
+  font-family: 'Creepster', cursive;
+  font-size: 58px;
+  color: #00ff99;
+  transform: rotate(-8deg);
+  text-decoration: overline;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  font-family: 'Butcherman', cursive;
+  font-size: 62px;
+  color: #ff66cc;
+  transform: rotate(5deg);
 }
+
 .gardeningALetter {
+  font-family: 'Eater', cursive;
+  font-size: 55px;
+  color: #ffcc00;
+  text-decoration: line-through;
 }
+
 .gardeningRLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 50px;
+  color: #66ffff;
+  transform: skewY(-10deg);
 }
+
 .gardeningDLetter {
+  font-family: 'Piazzolla', serif;
+  font-size: 58px;
+  color: #ff9966;
+  text-shadow: 2px 2px #000;
 }
+
 .gardeningELetter {
+  font-family: 'Ceviche One', sans-serif;
+  font-size: 52px;
+  color: #cc99ff;
+  transform: scaleY(1.2);
 }
+
 .gardeningNLetter {
+  font-family: 'Nosifer', cursive;
+  font-size: 56px;
+  color: #ff3366;
+  text-decoration: underline wavy;
 }
+
 .gardeningILetter {
+  font-family: 'Creepster', cursive;
+  font-size: 48px;
+  color: #33ff33;
+  transform: rotate(-6deg);
 }
+
 .gardeningNTwoLetter {
+  font-family: 'Butcherman', cursive;
+  font-size: 54px;
+  color: #ff99cc;
+  transform: skewX(-8deg);
 }
+
 .gardeningGTwoLetter {
+  font-family: 'Eater', cursive;
+  font-size: 60px;
+  color: #ffff66;
+  text-shadow: 3px 3px #000;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 58px;
+  color: #ff6600;
+  transform: rotate(8deg);
 }
+
 .becauseELetter {
+  font-family: 'Piazzolla', serif;
+  font-size: 52px;
+  color: #00ffcc;
+  text-decoration: overline;
 }
+
 .becauseCLetter {
+  font-family: 'Nosifer', cursive;
+  font-size: 56px;
+  color: #ff99ff;
+  transform: skewY(5deg);
 }
+
 .becauseALetter {
+  font-family: 'Creepster', cursive;
+  font-size: 50px;
+  color: #ffcc33;
+  text-shadow: 2px 2px #000;
 }
+
 .becauseULetter {
+  font-family: 'Butcherman', cursive;
+  font-size: 54px;
+  color: #66ff99;
+  transform: scaleX(1.1);
 }
+
 .becauseSLetter {
+  font-family: 'Eater', cursive;
+  font-size: 48px;
+  color: #ff3399;
+  text-decoration: line-through;
 }
+
 .becauseETwoLetter {
+  font-family: 'Ceviche One', sans-serif;
+  font-size: 58px;
+  color: #9966ff;
+  transform: rotate(-5deg);
 }
 
 /* THEY word */
 
 .theyTLetter {
+  font-family: 'Butcherman', cursive;
+  font-size: 58px;
+  color: #ff33cc;
+  transform: rotate(-7deg);
+  text-shadow: 2px 2px #000;
 }
+
 .theyHLetter {
+  font-family: 'Eater', cursive;
+  font-size: 52px;
+  color: #33ffcc;
+  text-decoration: overline;
+  transform: skewX(12deg);
 }
+
 .theyELetter {
+  font-family: 'Nosifer', cursive;
+  font-size: 56px;
+  color: #ffcc66;
+  transform: scaleY(1.1);
 }
+
 .theyYLetter {
+  font-family: 'Creepster', cursive;
+  font-size: 62px;
+  color: #99ff33;
+  transform: rotate(5deg);
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 65px;
+  color: #ff6699;
+  transform: skewY(-8deg);
+  text-shadow: 3px 3px #000;
 }
+
 .wantedALetter {
+  font-family: 'Piazzolla', serif;
+  font-size: 54px;
+  color: #66ffff;
+  text-decoration: line-through;
 }
+
 .wantedNLetter {
+  font-family: 'Ceviche One', sans-serif;
+  font-size: 58px;
+  color: #ff9933;
+  transform: rotate(-6deg);
 }
+
 .wantedTLetter {
+  font-family: 'Butcherman', cursive;
+  font-size: 50px;
+  color: #cc99ff;
+  transform: scaleX(1.2);
 }
+
 .wantedELetter {
+  font-family: 'Eater', cursive;
+  font-size: 56px;
+  color: #ff3366;
+  text-decoration: underline wavy;
 }
+
 .wantedDLetter {
+  font-family: 'Nosifer', cursive;
+  font-size: 60px;
+  color: #33ff99;
+  transform: skewX(-10deg);
 }
 
 /* TO word */
 
 .toTLetter {
+  font-family: 'Creepster', cursive;
+  font-size: 55px;
+  color: #ff99cc;
+  transform: rotate(8deg);
+  text-shadow: 2px 2px #000;
 }
+
 .toOLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 48px;
+  color: #ffcc33;
+  transform: skewY(5deg);
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  font-family: 'Butcherman', cursive;
+  font-size: 52px;
+  color: #66ff99;
+  transform: rotate(-5deg);
 }
+
 .improveMLetter {
+  font-family: 'Eater', cursive;
+  font-size: 58px;
+  color: #ff6633;
+  text-decoration: overline;
+  text-shadow: 2px 2px #000;
 }
+
 .improvePLetter {
+  font-family: 'Nosifer', cursive;
+  font-size: 54px;
+  color: #99ccff;
+  transform: skewX(15deg);
 }
+
 .improveRLetter {
+  font-family: 'Piazzolla', serif;
+  font-size: 60px;
+  color: #ff99ff;
+  transform: scaleY(1.15);
 }
+
 .improveOLetter {
+  font-family: 'Creepster', cursive;
+  font-size: 50px;
+  color: #ffff66;
+  text-decoration: line-through;
 }
+
 .improveVLetter {
+  font-family: 'Ceviche One', sans-serif;
+  font-size: 56px;
+  color: #ff3399;
+  transform: rotate(6deg);
 }
+
 .improveELetter {
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 52px;
+  color: #66ffcc;
+  text-shadow: 3px 3px #000;
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  font-family: 'Butcherman', cursive;
+  font-size: 58px;
+  color: #ff6666;
+  transform: skewY(-7deg);
 }
+
 .theirHLetter {
+  font-family: 'Eater', cursive;
+  font-size: 54px;
+  color: #33ff33;
+  text-decoration: underline wavy;
 }
+
 .theirELetter {
+  font-family: 'Nosifer', cursive;
+  font-size: 50px;
+  color: #ff99cc;
+  transform: rotate(-8deg);
 }
+
 .theirILetter {
+  font-family: 'Creepster', cursive;
+  font-size: 56px;
+  color: #ffcc66;
+  text-shadow: 2px 2px #000;
 }
+
 .theirRLetter {
+  font-family: 'Piazzolla', serif;
+  font-size: 52px;
+  color: #99ff99;
+  transform: scaleX(1.1);
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 60px;
+  color: #ff3366;
+  transform: rotate(7deg);
 }
+
 .rootOLetter {
+  font-family: 'Butcherman', cursive;
+  font-size: 54px;
+  color: #66ffff;
+  text-decoration: overline;
 }
+
 .rootOTwoLetter {
+  font-family: 'Eater', cursive;
+  font-size: 58px;
+  color: #ffcc33;
+  transform: skewX(-12deg);
+  text-shadow: 2px 2px #000;
 }
+
 .rootTLetter {
+  font-family: 'Nosifer', cursive;
+  font-size: 52px;
+  color: #99ff66;
+  transform: scaleY(1.2);
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
+  font-family: 'Creepster', cursive;
+  font-size: 56px;
+  color: #ff99ff;
+  transform: rotate(-6deg);
 }
+
 .skillsKLetter {
+  font-family: 'Piazzolla', serif;
+  font-size: 62px;
+  color: #ff6633;
+  text-decoration: line-through;
+  text-shadow: 3px 3px #000;
 }
+
 .skillsILetter {
+  font-family: 'Ceviche One', sans-serif;
+  font-size: 50px;
+  color: #33ffcc;
+  transform: skewY(8deg);
 }
+
 .skillsLLetter {
+  font-family: 'Butcherman', cursive;
+  font-size: 58px;
+  color: #ff9966;
+  transform: scaleX(1.15);
 }
+
 .skillsLTwoLetter {
+  font-family: 'Eater', cursive;
+  font-size: 54px;
+  color: #cc99ff;
+  text-decoration: underline wavy;
 }
+
 .skillsSTwoLetter {
+  font-family: 'Nosifer', cursive;
+  font-size: 60px;
+  color: #ffff33;
+  transform: rotate(5deg);
+  text-shadow: 2px 2px #000;
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  font-family: 'Piazzolla', serif;
+  font-size: 40px;
+  color: #ff6666;
+  transform: rotate(10deg);
 }
+
 .exclamation-mark {
+  font-family: 'Butcherman', cursive;
+  font-size: 75px;
+  color: #ff3300;
+  transform: skewY(-5deg);
+  text-shadow: 4px 4px #000;
 }
+
 .question-mark {
+  font-family: 'Nosifer', cursive;
+  font-size: 70px;
+  color: #ff0066;
+  transform: rotate(10deg);
+  text-shadow: 3px 3px #000;
 }
+
+/* I had a little too much fun with this lol but this was an interesting challenge, thanks!! :)  */
